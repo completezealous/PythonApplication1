@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>663f54f4-dc9b-499c-945c-83c4d87f3581</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>bubble.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +22,27 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="binary_search.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="bubble.py" />
+    <Compile Include="bucket_sort.py" />
+    <Compile Include="cal_time.py" />
+    <Compile Include="count_sort.py" />
+    <Compile Include="hanoi.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="heap.py" />
+    <Compile Include="heap_topk.py" />
+    <Compile Include="insert.py" />
+    <Compile Include="merge_sort.py" />
+    <Compile Include="quick_sort.py" />
+    <Compile Include="radix_sort.py" />
+    <Compile Include="search.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="select_sort.py" />
+    <Compile Include="shell_sort.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
